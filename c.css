@@ -1,0 +1,68 @@
+/*Taille de la police*/
+html{
+    font-size: 75%;
+}
+
+/*Couleur de l'en-tête*/
+header{
+    background-color: #c53939;
+}
+
+/*Propriétés du texte de l'en-tête*/
+header h1{
+    line-height: 6.5rem; /*hauteur d'une ligne*/
+    text-align: center;
+    color: #fff;
+    font-weight:  bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue; /*ombre rouge et bleu*/
+}
+
+/*Icone*/
+header h1::after{
+    content: "\2762"; /*icone "!"*/
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    margin-left:10px; /*espacement à gauche*/
+}
+
+body{
+    font: italic small-caps bold 15px cursive; /*italique, gras et ajustement de la taille*/
+    margin: auto;
+    line-height: 2em; /*hauteur d'une ligne*/
+    background-color: #352323;
+}
+
+main{
+    max-width: 100ch;
+    border: 4mm ridge rgba(220, 192, 50, 0.6); /*bordure personnalisée*/
+    margin: auto;
+    padding: 2em;
+    background-color: #edcdf3fa;
+
+}
+
+/*Propriétés de l'image*/
+img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    background-color: #c53939;
+    color: #eecdf3fa;
+    text-align: center;
+}
+
+li{
+    font-size: large;
+    font-style: italic;
+}
+
+/*Propriétés du bas de page*/
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+}
