@@ -66,3 +66,7 @@ footer p{
     color: #fff;
     font-size: 1.3em;
 }
+
+h1{
+    text-decoration: underline;
+}
